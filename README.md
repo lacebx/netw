@@ -25,18 +25,19 @@ pip install pyshark
     Update the pcap_file variable in the script to the path of your pcap file.
     Run the script:
 
-bash
+```bash
 python rtt_estimator.py
-
+```
 ## Example
 
-python
+```python
 
 if __name__ == "__main__":
     pcap_file = '/path/to/your/file.pcap'  # Update with your .pcap file path
     main(pcap_file)
+```
+## Function Details
 
-Function Details
 calculate_estimated_rtt(rtt_values, alpha=0.125)
 
 Calculates the Estimated RTT using the given RTT values and an alpha value (default is 0.125).
