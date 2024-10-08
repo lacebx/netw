@@ -21,9 +21,10 @@ pip install pyshark
 ```
 ## Usage
 
-    Ensure you have a valid pcap file. You can capture packets using tools like Wireshark.
-    Update the pcap_file variable in the script to the path of your pcap file.
-    Run the script:
+Ensure you have a valid pcap file. You can capture packets using tools like Wireshark.
+Update the pcap_file variable in the script to the path of your pcap file.
+
+Run the script:
 
 ```bash
 python rtt_estimator.py
@@ -74,8 +75,14 @@ Where:
 
 ## Troubleshooting
 
-    Ensure that your pcap file contains TCP packets; otherwise, the script will indicate that no RTT values were found.
-    Adjust the alpha value in the calculate_estimated_rtt function if you need different sensitivity for the Estimated RTT calculation.
+Ensure that your pcap file contains TCP packets; otherwise, the script will indicate that no RTT values were found.
+Adjust the alpha value in the calculate_estimated_rtt function if you need different sensitivity for the Estimated RTT calculation.
+
+## A Note from Lace
+
+As you explore and use this software, I hope it brings you as much joy and inspiration as it did for me while creating it. Feel free to adapt and build upon it—let's create something amazing together!
+
+Check my profile for more freeuse software :)
 
 ## License
 
